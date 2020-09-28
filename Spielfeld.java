@@ -86,7 +86,7 @@ public class Spielfeld {
 			if (sieg)
 				continue;
 			
-			// prüfe Diagonal
+			// prüfe Diagonal ffff
 			for (byte i = 0; i < 2; i++) {
 				for (byte j = 0; j < 5; j += 2) {
 					if (feld[j][j].contains(SpielerSymbol[spieler]))
